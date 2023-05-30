@@ -1,0 +1,57 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  width: 100%;
+  margin: 0px 0px 1.8em;
+}
+.formRow:last-child {
+    margin: 0px;
+}
+.formRow label {
+    margin: 0px 0px 0.3em;
+}
+.formRow input[type="text"],
+.formRow input[type="tel"],
+.formRow textarea {
+  width: 100%;
+  display: block;
+  height: 2.1em;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  outline: 0;
+  padding: 0px;
+  border: 1px solid #dedede;
+  border-radius: 0.5em;
+}
+.formRow textarea {
+  height: 100px;
+  resize: none;
+}
+
+.error {
+  color: #a60000;
+  font-size: 0.9em;
+  margin-top: -1.7em;
+  position: absolute;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  background: #740047;
+  transition: all 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(2px);
+  background: #570035;
+}
